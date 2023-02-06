@@ -1,0 +1,121 @@
+구글 웹폰트 사이트에서 원하는 폰트를 누른 후 emebed 탭에서 제공해주는 link 태그와 font-family를 가져다 쓰면 끝!
+https://fonts.google.com/
+
+
+[자주 사용되는 CSS] - 배운 내용 외의 CSS도 추가!
+
+background-color : #eee ;    /* transparent 투명 */
+
+background-image : url('이미지경로') ;
+
+background-position : 0% 0% ;    /* 가로 세로 */
+
+background-repeat : no-repeat ;    /* repeat-x, repeat-y, repeat */
+
+background : url('이미지경로') #eee no-repeat 50% 100%     /* 같이쓰기 */  
+
+ 
+
+border-style : solid    /* none, dotted, dashed, double, groove, ridge, inset, outset */
+
+border-top    /* border-right, border-bottom, border-left */
+
+border : 1px solid #eee ;    /* 같이쓰기 */
+
+
+
+color : #999;
+
+font-family : dotum, tahoma ;     /* 폰트이름 */
+
+font-weight : bold     /* normal, lighter, border */
+
+font-style : normal ;     /* italic, oblique */
+
+font-size : 12px ;     /* 1.5em, 14pt, 95% */
+
+text-variant : small-caps ;     /* 알파벳 소문자를 작은 대문자로 표시 */
+
+text-transform : uppercase ;     /* uppercase(알파벳대문자), capitalize(알파벳 첫글자 대문자), lowercase(알파벳 소문자) */
+
+text-decoration : none ;    /* line-through, overline, underline */
+
+text-align : center ;     /* left, right, justify */
+
+text-indent : 999px ;     /* 들여쓰기 */
+
+white-space : nowrap ;     /* 자동 줄바꿈 막기 */
+
+word-break : break-all ;     /* break-all (문자 단위 끊기), keep-all(단어 단위 끊기) */
+
+word-spacing : 3px ;     /* 단어 간격 조절 */
+
+letter-spacing : -1px ;     /* 자간 조정 */
+
+line-height : 150% ;      /* 줄간격 */
+
+line-mode : disabled ;     /* 영문만 입력 */
+
+
+
+margin     /* 바깥여백 */
+
+margin-top     /* margin-right, margin-bottom, margin-left */
+
+margin : 50px 50px 50px 50px ;     /* top, right, bottom, left */
+
+margin : 40px auto ;     /* 위, 아래 마진 = 40px 왼쪽, 오른쪽 마진 = auto */
+
+margin : 50px ;     /* 같이쓰기 top, right, bottom, left = 50px */
+
+padding     /* 안쪽 여백 */
+
+padding-top     /* padding-right, padding-bottom, padding-left */
+
+padding : 50px 50px 50px 50px ;     /* top, right, bottom, left */
+
+padding : 40px auto ;     /* 위, 아래 패딩 = 40px 왼쪽, 오른쪽 패딩 = auto */
+
+padding : 50px     /* 같이쓰기 top, right, bottom, left = 50px */       
+
+position : absolute ;     /* relative, fixed, static */
+
+top : 0px :     /* left, right, bottom */
+
+z-index : 1 ;     /* 레이어 기능 */
+
+float :left ;     /* right, none */
+
+clear : both    /* left, right, none */
+
+table-layout : fixed ;     /* auto */
+
+border-collapse : collapse ;     /* separate */
+
+border-spacing : 0 ;     /* 간격 */
+
+caption-side : top ;     /* bottom 캡션위치 */
+
+emtpy-cells : show ;     /* hide 빈셀 숨기기, 보이기 */
+
+list-style-type : circle ;     /* ul-circle(빈원), disc(까만원), square(까만네모), none(없음) // ol-decimal(1,2,3), decimal-leading-zero(01,02,03), lower-alpha(a,a,c), lower-roman(i,ii,iii), upper-alpha(A,B,C), none (없음) */
+
+list-style-positon : inside ;     /* outside */
+
+list-style-images : url('이미지경로') ;
+
+display : block ;     /* inline, inline-block, hidden, none, list-item */ 
+
+width : 800px ;     /* 가로값 */
+
+height : 500px ;    /* 세로값 */
+
+vertical-align : middle ;     /* top, bottom, text-top, text-bottom, sub, super, baseline */
+
+visibility : hidden ;     /* visble, collapse */
+
+opacity : 85% ;     /* filter :alpha (opacity=85) ; */
+
+overflow : hidden ;     /* scroll, visible */
+
+cursor : pointer ;     /* pointer(손모양), default(변화없음), wait(모래시계), help(물음표), move(이동 모양), crosshair(십자가모양) */
